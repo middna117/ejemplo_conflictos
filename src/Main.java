@@ -14,6 +14,8 @@ public class Main {
             b = Integer.parseInt(br.readLine());
             System.out.println("Ingrese un entero C: ");
             c = Integer.parseInt(br.readLine());
+
+            int resultado = a + b + c;
         }
         catch (IOException e) {
             System.out.println(e.getMessage());
