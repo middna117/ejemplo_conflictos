@@ -16,6 +16,7 @@ public class Main {
             c = Integer.parseInt(br.readLine());
 
             int resultado = a + b + c;
+            System.out.println("Resultado: " + resultado);
         }
         catch (IOException e) {
             System.out.println(e.getMessage());
