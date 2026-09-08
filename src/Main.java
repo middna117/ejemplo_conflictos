@@ -8,7 +8,8 @@ public class Main {
         int a, b, c;
 
         try {
-            System.out.println("Ingrese un entero A: ");
+            System.out.println("Ejemplo de sumar tres numeros");
+            System.out.println("Ingrese el valor numerico entero A: ");
             a = Integer.parseInt(br.readLine());
             System.out.println("Ingrese un entero B: ");
             b = Integer.parseInt(br.readLine());
@@ -16,6 +17,7 @@ public class Main {
             c = Integer.parseInt(br.readLine());
 
             int resultado = a + b + c;
+            System.out.println(" ");
         }
         catch (IOException e) {
             System.out.println(e.getMessage());
